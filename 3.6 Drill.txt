@@ -1,0 +1,10 @@
+Q1	Positive	False Positive	sufferers
+	0.98	0.1	0.005
+			
+Be positive	0.98*0.005+0.1*(1-0.005)		
+	0.0049	+	0.0995
+	0.1044		
+			
+Correctly diagnose a sufferer of Thripshaw's	0.98		
+Correctly identify a non-sufferer of Thripshaw's	1-0.1 = 0.9		
+Misclassify the person	1-(0.98*0.005+ .9*.995)=.0996		
